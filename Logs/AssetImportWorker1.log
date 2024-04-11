@@ -1,0 +1,409 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 15708 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/petr/Unity_Test_Panskikh
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50644
+Successfully changed project path to: C:/Users/petr/Unity_Test_Panskikh
+C:/Users/petr/Unity_Test_Panskikh
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20068] Host "[IP] 192.168.188.111 [Port] 0 [Flags] 2 [Guid] 379871063 [EditorId] 379871063 [Version] 1048832 [Id] WindowsEditor(7,RedmiG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20068] Host "[IP] 192.168.188.111 [Port] 0 [Flags] 2 [Guid] 379871063 [EditorId] 379871063 [Version] 1048832 [Id] WindowsEditor(7,RedmiG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/petr/Unity_Test_Panskikh/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005049 seconds.
+- Loaded All Assemblies, in  0.268 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.219 seconds
+Domain Reload Profiling: 486ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (82ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (90ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (219ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (174ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.486 seconds
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.444 seconds
+Domain Reload Profiling: 928ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (444ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (328ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3553.
+Memory consumption went from 122.7 MB to 122.6 MB.
+Total: 2.445700 ms (FindLiveObjects: 0.201100 ms CreateObjectMapping: 0.071900 ms MarkObjects: 2.065800 ms  DeleteObjects: 0.106100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29901.452858 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(653f78c335ac86243aaec85a19567ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(653f78c335ac86243aaec85a19567ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca3edbe875c7ba8ddc85b380c13f7f1') in 0.002328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.testtools.codecoverage/package.json
+  artifactKey: Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/package.json using Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312a15105b5b1a672fbbc01e4b0c349f') in 0.006700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 354.499286 seconds.
+  path: Assets/LowPolyFarmLite/Models/Cabbage_01.fbx
+  artifactKey: Guid(0f50786d35eebcf44805f9d5fb326c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Cabbage_01.fbx using Guid(0f50786d35eebcf44805f9d5fb326c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac5d694b0005e00c8786a35c8e94957') in 0.376517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyFarmLite/Models/Fence_01.fbx
+  artifactKey: Guid(19691f6aa755db9428322cf11b5b1ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Fence_01.fbx using Guid(19691f6aa755db9428322cf11b5b1ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce356264f27920b302a427a9e1bef8e') in 0.013814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyFarmLite/Models/Terrain_01.fbx
+  artifactKey: Guid(593fb94d50cebfc42887e62a057c01fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Terrain_01.fbx using Guid(593fb94d50cebfc42887e62a057c01fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81e9c1fe55c1daab4fab54646d4abce') in 0.013620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowPolyFarmLite/Models/Mud_01.fbx
+  artifactKey: Guid(aaff327437b0be14f9c6d1be9b411708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Mud_01.fbx using Guid(aaff327437b0be14f9c6d1be9b411708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aae1bfa2a361ef0e52c8e3b0681e4c9') in 0.015016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyFarmLite/Models/Tomato_03.fbx
+  artifactKey: Guid(b7cf12fb849f2ce4592a36e9c9c8d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Tomato_03.fbx using Guid(b7cf12fb849f2ce4592a36e9c9c8d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e2cc16ec6b91ff4f87ab899ae01670') in 0.022382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.522932 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Cabbage_01.prefab
+  artifactKey: Guid(aec8969d0290c6d4cbc587ef85a01ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Cabbage_01.prefab using Guid(aec8969d0290c6d4cbc587ef85a01ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2449c3e497d2fd7a6cbc11e24a6bd1d8') in 0.073083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/TomatoPlant_01.prefab
+  artifactKey: Guid(78da2ace1ab76ce478600ebe37fa10fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/TomatoPlant_01.prefab using Guid(78da2ace1ab76ce478600ebe37fa10fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41d9e67ba6f25c945cd3a9c057a6b87') in 0.012320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Tree_04.prefab
+  artifactKey: Guid(bae468b3a6b9ea141967f3cfbe601352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Tree_04.prefab using Guid(bae468b3a6b9ea141967f3cfbe601352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ebb19e729e3f5ff4cff4bdd401fd2b') in 0.010263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Rock_04.prefab
+  artifactKey: Guid(748ca274b89873247873cee26d353629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Rock_04.prefab using Guid(748ca274b89873247873cee26d353629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e2cbc427089e9380b820e4bdcdcdbe') in 0.010287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Mud_01.prefab
+  artifactKey: Guid(c4fa87cd4eff4ae4ba4c8d1ad48df5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Mud_01.prefab using Guid(c4fa87cd4eff4ae4ba4c8d1ad48df5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c54ab145aad7c28365ab14d3560671') in 0.009976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/WateringCan_01.prefab
+  artifactKey: Guid(8877f4aac7d3c184ea4954647487e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/WateringCan_01.prefab using Guid(8877f4aac7d3c184ea4954647487e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83228ae4c8273f3d717b9d4a89165072') in 0.010807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 234.718350 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Materials/MedievalTownLite_Emission.mat
+  artifactKey: Guid(73539b96b877a34438c436a0ef700c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Materials/MedievalTownLite_Emission.mat using Guid(73539b96b877a34438c436a0ef700c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e7af9d78ce4820f726c011294d8880') in 0.097727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Materials/MedievalTownLite_Nature.mat
+  artifactKey: Guid(c52178879e8e28e4fbbea32638564cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Materials/MedievalTownLite_Nature.mat using Guid(c52178879e8e28e4fbbea32638564cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69bf75c35d0cc14632ddc48ac7692304') in 0.184006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.270612 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Models/Corner_01.fbx
+  artifactKey: Guid(ef0ac6ba221fc8d4c9a218702e7255ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Models/Corner_01.fbx using Guid(ef0ac6ba221fc8d4c9a218702e7255ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b163c3a5f5fcb301a951de633a1bfbfc') in 0.028380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Models/Floor_01.fbx
+  artifactKey: Guid(3c4740f0dda958143ba94c8d573713bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Models/Floor_01.fbx using Guid(3c4740f0dda958143ba94c8d573713bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737901efe2c9c998ff15217ddff72d80') in 0.021715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Models/Fence_01.fbx
+  artifactKey: Guid(1e83475c1f24318459924e476284e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Models/Fence_01.fbx using Guid(1e83475c1f24318459924e476284e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4a20b0a6b816b1b21d6c8dce9fd267') in 0.028142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Models/Stairs_01.fbx
+  artifactKey: Guid(b7047bf84b3ed884c8a126e02a796faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Models/Stairs_01.fbx using Guid(b7047bf84b3ed884c8a126e02a796faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19285e5cbb9b34ea4fc8c6295b6819cb') in 0.027027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Models/HouseWall_08.fbx
+  artifactKey: Guid(f8a8c40c38c3827428f0d23ae93856a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Models/HouseWall_08.fbx using Guid(f8a8c40c38c3827428f0d23ae93856a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9ae25c650d93b33c89219aa23f7224') in 0.023502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Models/HouseWall_11.fbx
+  artifactKey: Guid(aeb30b4f810979547bd01a37bbad12e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Models/HouseWall_11.fbx using Guid(aeb30b4f810979547bd01a37bbad12e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d5795d3ea2020831d2ee811abf4da4') in 0.021734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Models/HouseRoof_02.fbx
+  artifactKey: Guid(3eaf9b5e0db8445458416f573951c626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Models/HouseRoof_02.fbx using Guid(3eaf9b5e0db8445458416f573951c626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc839e17bcb26b261c33de1f4cf5425') in 0.026176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.722559 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Prefabs/Corner_01_LITE.prefab
+  artifactKey: Guid(4922535dfb84575409797fc05fc8044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Prefabs/Corner_01_LITE.prefab using Guid(4922535dfb84575409797fc05fc8044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166a2aa50a7fe708e567d968c01cef3a') in 0.122335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Prefabs/HouseWall_02_LITE.prefab
+  artifactKey: Guid(ca12e4d3b8ba552408c001532eecb3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Prefabs/HouseWall_02_LITE.prefab using Guid(ca12e4d3b8ba552408c001532eecb3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633e633fa5f85d6053b9ef7fd8bc95ad') in 0.011568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Prefabs/HouseBase_03_LITE.prefab
+  artifactKey: Guid(3cf57bb0c3bf0e14dae5d174e1c87e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Prefabs/HouseBase_03_LITE.prefab using Guid(3cf57bb0c3bf0e14dae5d174e1c87e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2bf211f121e40685084102865172cf') in 0.012579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Prefabs/Rock_01_LITE.prefab
+  artifactKey: Guid(5371aaf51314ad747b8b8e8dab484623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Prefabs/Rock_01_LITE.prefab using Guid(5371aaf51314ad747b8b8e8dab484623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf6ccd826f4469cc25c3dc935479c94') in 0.011395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Prefabs/House_01_LITE.prefab
+  artifactKey: Guid(e8261a97a7f761c4e8efce96a79a4a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Prefabs/House_01_LITE.prefab using Guid(e8261a97a7f761c4e8efce96a79a4a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5a1ecb2ee86cdbbb6f0641719dcf1a') in 0.187027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 639
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FantasyMedievalTown_LITE/Prefabs/Stairs_01_LITE.prefab
+  artifactKey: Guid(3b98afa4672041948bc8d9708f0dec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMedievalTown_LITE/Prefabs/Stairs_01_LITE.prefab using Guid(3b98afa4672041948bc8d9708f0dec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afda860aa4a80b033a05c6f55d60f5d') in 0.011363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
